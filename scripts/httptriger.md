@@ -40,5 +40,6 @@ func start
 
 If everyhting looks good, lets publish to azure.
 ```
+$functionsName = "ckriutzboxfunctions"
 func azure functionapp publish $functionsName
 ```
