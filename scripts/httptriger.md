@@ -4,7 +4,7 @@ func new --name boxhttp --template "HTTP trigger" --authlevel "anonymous"
 
 Test the trigger locally.
 ```
-func run
+func start
 ```
 
 Now, add the Inventory class:
