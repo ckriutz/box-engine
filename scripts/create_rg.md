@@ -14,10 +14,13 @@ $blobstorageName = "ckriutzblobstorage002"
 
 Now, lets use this to create a resource group.
 
+```
 az group create -l $location -n $resourceGroup
 
 ```
+
 Then, once that's created, lets go ahead and create a storage account.
+
 
 ```
 az storage account create --name $storageName --location $location --resource-group $resourceGroup --sku Standard_LRS --allow-blob-public-access false
@@ -36,6 +39,7 @@ az servicebus queue create --name $serviceBusQueueName --namespace-name $service
 ```
 
 For blob storage trigger, we need to create a seperate storage account.
+
 ```
 az storage account create --name $blobstorageName --location $location --resource-group $resourceGroup --sku Standard_LRS --allow-blob-public-access true
 ```
