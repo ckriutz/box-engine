@@ -1,2 +1,15 @@
 # box-engine
-A Python Falcon API used as part of some testing, also to experiment with Falcon
+A set of Azure Functions
+
+### Getting Started
+
+
+### Functions
+- HTTP Trigger Function
+- Timer Function
+- Message Bus Function
+- Storage Function
+
+### Durable Function
+- Function Chaining
+
